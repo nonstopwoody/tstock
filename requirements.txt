@@ -1,0 +1,33 @@
+# Thai Stock AI Advisor — Python dependencies
+# Phase 1 (MVP) baseline; extra packages added in later phases (pythainlp, transformers, torch)
+
+# Data + math
+yfinance>=0.2.40
+pandas>=2.2.0
+numpy>=1.26.0
+
+# News fetching
+feedparser>=6.0.11
+beautifulsoup4>=4.12.0
+requests>=2.32.0
+lxml>=5.2.0
+
+# LLM
+anthropic>=0.40.0
+
+# Date/time helpers
+python-dateutil>=2.9.0
+pytz>=2024.1
+
+# === Phase 4: Thai sentiment ===
+# pythainlp = lightweight default (CPU-only, ~50MB)
+pythainlp>=5.0.0
+
+# Optional: WangchanBERTa via Hugging Face transformers
+# Install only if you want the heavier transformer model:
+#   pip install transformers sentencepiece torch
+# Then set ANTHROPIC_MODEL or SENTIMENT_BACKEND=wangchanberta in .env
+# transformers>=4.40.0
+# sentencepiece>=0.2.0
+# torch>=2.2.0  # ~700MB — install CPU-only via:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
