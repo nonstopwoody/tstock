@@ -1,0 +1,17 @@
+{
+  "stocks": [
+    { "symbol": "PTT.BK",   "name": "ปตท.",                     "sector": "Energy" },
+    { "symbol": "PTTEP.BK", "name": "ปตท.สำรวจและผลิตปิโตรเลียม","sector": "Energy" },
+    { "symbol": "AOT.BK",   "name": "ท่าอากาศยานไทย",          "sector": "Transport" },
+    { "symbol": "CPALL.BK", "name": "ซีพี ออลล์",              "sector": "Commerce" },
+    { "symbol": "ADVANC.BK","name": "แอดวานซ์ อินโฟร์ เซอร์วิส","sector": "Telecom" },
+    { "symbol": "KBANK.BK", "name": "กสิกรไทย",                "sector": "Banking" },
+    { "symbol": "SCB.BK",   "name": "ไทยพาณิชย์",              "sector": "Banking" },
+    { "symbol": "BBL.BK",   "name": "กรุงเทพ",                 "sector": "Banking" },
+    { "symbol": "BDMS.BK",  "name": "กรุงเทพดุสิตเวชการ",       "sector": "Healthcare" },
+    { "symbol": "GULF.BK",  "name": "กัลฟ์ เอ็นเนอร์จี",        "sector": "Energy" },
+    { "symbol": "DELTA.BK", "name": "เดลต้า อีเลคโทรนิคส์",    "sector": "Electronics" },
+    { "symbol": "MINT.BK",  "name": "ไมเนอร์ อินเตอร์เนชั่นแนล","sector": "Tourism" }
+  ],
+  "last_updated": "2026-05-09"
+}
