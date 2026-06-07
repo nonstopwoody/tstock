@@ -48,3 +48,11 @@ jobs:
             git commit -m "auto: pipeline run at $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      - name: Send Telegram notification
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DASHBOARD_URL: https://nonstopwoody.github.io/tstock/dashboard.html
+        run: python notify_telegram.py
