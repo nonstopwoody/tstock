@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:55:29.867109+07:00",
+  "generated_at": "2026-09-25T16:16:16.872858+07:00",
   "run_type": "pre_market",
   "market_summary": {
     "set_index": 0.0,
@@ -12,148 +12,146 @@
       "symbol": "PTT.BK",
       "name": "ปตท.",
       "sector": "Energy",
-      "price": 43.0,
-      "change_pct": 2.38,
+      "price": 43.25,
+      "change_pct": 0.0,
       "indicators": {
-        "price": 43.0,
-        "rsi_14": 71.42857142857143,
-        "ema_12": 42.106320336294196,
-        "ema_26": 41.4905361890814,
-        "macd": 0.6157841472127927,
-        "macd_signal": 0.6615816953817242,
-        "macd_hist": -0.045797548168931446,
-        "sma_50": 40.4,
-        "sma_200": 35.85437243461609,
-        "atr_14": 0.6607142857142857,
+        "price": 43.25,
+        "rsi_14": 73.33333333333333,
+        "ema_12": 42.314815432485624,
+        "ema_26": 41.63801361917726,
+        "macd": 0.6768018133083658,
+        "macd_signal": 0.6678166008502783,
+        "macd_hist": 0.008985212458087477,
+        "sma_50": 40.495,
+        "sma_200": 35.920627756118776,
+        "atr_14": 0.6785714285714286,
         "cdc_zone": "green",
         "history_days": 250
       },
-      "technical_score": -0.043,
-      "sentiment_score": 1.0,
-      "cci_short": 0.468,
-      "cci_medium": 0.475,
-      "cci_long": 0.475,
+      "technical_score": 0.277,
+      "sentiment_score": 0.0,
+      "cci_short": 0.012,
+      "cci_medium": 0.155,
+      "cci_long": 0.343,
       "news_count_7d": 1,
       "top_news": [
         {
-          "headline": "PTT เด้ง 2% รับปันผล 1.40 บ. ลุ้นกำไรไตรมาส 3 ฟื้น โบรกชูเป้า 44.50 บาท",
+          "headline": "ส่องประวัติ 3 ขุนพลใหม่ PTT “ชนมาศ-สุรชัย-ยุทธนา” รับไม้ต่อสายงานสำคัญองค์กร",
           "source": "Kaohoon",
-          "url": "https://www.kaohoon.com/breakingnews/866182",
-          "published_at": "2026-09-24T14:42:13+07:00",
-          "sentiment": 1.0
+          "url": "https://www.kaohoon.com/news/866519",
+          "published_at": "2026-09-25T15:05:19+07:00",
+          "sentiment": 0.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
-          "confidence": 0.4,
-          "target_price": 45.01,
-          "stop_loss": 40.85,
-          "reasoning": "CCI short-term = +0.47, RSI = 71.4, อยู่ในโซน green [rule-based fallback] [Guardrail: signal conflict between technical and sentiment]"
+          "confidence": 0.51,
+          "target_price": 43.3,
+          "stop_loss": 41.09,
+          "reasoning": "CCI short-term = +0.01, RSI = 73.3, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
-          "confidence": 0.4,
-          "target_price": 45.04,
-          "stop_loss": 40.85,
-          "reasoning": "CCI medium-term = +0.47, RSI = 71.4, อยู่ในโซน green [rule-based fallback] [Guardrail: signal conflict between technical and sentiment]"
+          "confidence": 0.58,
+          "target_price": 43.92,
+          "stop_loss": 41.09,
+          "reasoning": "CCI medium-term = +0.15, RSI = 73.3, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
-          "action": "HOLD",
-          "confidence": 0.4,
-          "target_price": 45.04,
-          "stop_loss": 40.85,
-          "reasoning": "CCI long-term = +0.47, RSI = 71.4, อยู่ในโซน green [rule-based fallback] [Guardrail: signal conflict between technical and sentiment]"
+          "action": "BUY",
+          "confidence": 0.67,
+          "target_price": 44.73,
+          "stop_loss": 41.09,
+          "reasoning": "CCI long-term = +0.34, RSI = 73.3, อยู่ในโซน green [rule-based fallback]"
         }
       },
-      "risk_flags": [
-        "SIGNAL_CONFLICT"
-      ]
+      "risk_flags": []
     },
     {
       "symbol": "PTTEP.BK",
       "name": "ปตท.สำรวจและผลิตปิโตรเลียม",
       "sector": "Energy",
-      "price": 150.0,
-      "change_pct": 1.35,
+      "price": 149.5,
+      "change_pct": -0.66,
       "indicators": {
-        "price": 150.0,
-        "rsi_14": 52.777777777777786,
-        "ema_12": 150.5880103407745,
-        "ema_26": 149.86489992937135,
-        "macd": 0.7231104114031552,
-        "macd_signal": 1.4598612501202763,
-        "macd_hist": -0.7367508387171211,
-        "sma_50": 147.88614807128906,
-        "sma_200": 134.85579357147216,
-        "atr_14": 2.642857142857143,
+        "price": 149.5,
+        "rsi_14": 48.64864864864865,
+        "ema_12": 150.48571289189795,
+        "ema_26": 149.8721638763675,
+        "macd": 0.6135490155304524,
+        "macd_signal": 1.2969805459740193,
+        "macd_hist": -0.683431530443567,
+        "sma_50": 148.06315795898436,
+        "sma_200": 135.10674896240235,
+        "atr_14": 2.607142857142857,
         "cdc_zone": "green",
         "history_days": 250
       },
-      "technical_score": 0.097,
+      "technical_score": 0.19,
       "sentiment_score": -0.1,
-      "cci_short": -0.096,
-      "cci_medium": -0.015,
-      "cci_long": 0.187,
+      "cci_short": -0.032,
+      "cci_medium": 0.025,
+      "cci_long": 0.215,
       "news_count_7d": 10,
       "top_news": [
         {
           "headline": "แรงซื้อ NVDR เข้าพลังงาน–แบงก์ PTTEP นำตลาด สวนทาง DELTA ถูกเทขาย",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/infographic/863061",
-          "published_at": "2026-09-24T15:55:50.254125+07:00",
+          "published_at": "2026-09-25T16:16:33.057507+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "น้ำมันโลกเดือด! ซาอุฯ ปิดท่อส่ง ดัน Brent แตะ 108 เหรียญ โบรกชู PTTEP เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863027",
-          "published_at": "2026-09-24T15:55:50.254064+07:00",
+          "published_at": "2026-09-25T16:16:33.057362+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "CGSI มอง SET แกว่ง 1,585-1,610 จุด กังวล AI-น้ำมันสูง จับตาเฟด ชู PTTEP-SCB",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863101",
-          "published_at": "2026-09-24T15:55:50.254000+07:00",
+          "published_at": "2026-09-25T16:16:33.057219+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "ครม. ไฟเขียว PTTEP คว้า 2 แปลงปิโตรเลียมบนบก รอบ 25 ลุยสำรวจป้อนไฟฟ้าน้ำพอง",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863378",
-          "published_at": "2026-09-24T15:55:50.253927+07:00",
+          "published_at": "2026-09-25T16:16:33.057067+07:00",
           "sentiment": -1.0
         },
         {
           "headline": "PTTEP คว้าสิทธิ 2 แปลงปิโตรเลียมบนบก พื้นที่ 7,141 ตร.กม. เสริมมั่นคงพลังงานไทย",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863397",
-          "published_at": "2026-09-24T15:55:50.253846+07:00",
+          "published_at": "2026-09-25T16:16:33.056918+07:00",
           "sentiment": -1.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
-          "confidence": 0.55,
-          "target_price": 148.56,
-          "stop_loss": 142.5,
-          "reasoning": "CCI short-term = -0.10, RSI = 52.8, อยู่ในโซน green [rule-based fallback]"
+          "confidence": 0.52,
+          "target_price": 149.02,
+          "stop_loss": 142.03,
+          "reasoning": "CCI short-term = -0.03, RSI = 48.6, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
           "confidence": 0.51,
-          "target_price": 149.78,
-          "stop_loss": 142.5,
-          "reasoning": "CCI medium-term = -0.01, RSI = 52.8, อยู่ในโซน green [rule-based fallback]"
+          "target_price": 149.87,
+          "stop_loss": 142.03,
+          "reasoning": "CCI medium-term = +0.03, RSI = 48.6, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
-          "confidence": 0.59,
-          "target_price": 152.8,
-          "stop_loss": 142.5,
-          "reasoning": "CCI long-term = +0.19, RSI = 52.8, อยู่ในโซน green [rule-based fallback]"
+          "confidence": 0.61,
+          "target_price": 152.71,
+          "stop_loss": 142.03,
+          "reasoning": "CCI long-term = +0.21, RSI = 48.6, อยู่ในโซน green [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -162,19 +160,19 @@
       "symbol": "AOT.BK",
       "name": "ท่าอากาศยานไทย",
       "sector": "Transport",
-      "price": 62.25,
-      "change_pct": -0.4,
+      "price": 62.0,
+      "change_pct": 0.0,
       "indicators": {
-        "price": 62.25,
-        "rsi_14": 42.42424242424243,
-        "ema_12": 62.110159904530406,
-        "ema_26": 62.60851126306733,
-        "macd": -0.49835135853692236,
-        "macd_signal": -0.5737629393032266,
-        "macd_hist": 0.07541158076630428,
-        "sma_50": 63.485,
-        "sma_200": 56.743225021362306,
-        "atr_14": 1.0535714285714286,
+        "price": 62.0,
+        "rsi_14": 46.666666666666664,
+        "ema_12": 62.06066784821213,
+        "ema_26": 62.54628957937096,
+        "macd": -0.48562173115883667,
+        "macd_signal": -0.5593255822438411,
+        "macd_hist": 0.07370385108500443,
+        "sma_50": 63.44,
+        "sma_200": 56.790950012207034,
+        "atr_14": 1.0,
         "cdc_zone": "red",
         "history_days": 250
       },
@@ -189,35 +187,35 @@
           "headline": "AOT เปิดแคมเปญ “เสน่ห์ไทย” ในช็อปครบ 500 บาทลุ้นรางวัล กระตุ้นใช้จ่าย 5 สนามบิน",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/pr/858266",
-          "published_at": "2026-09-24T15:56:02.056655+07:00",
+          "published_at": "2026-09-25T16:16:44.064787+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "NVDR โยกพอร์ต! ซื้อ PTTGC–STA ขาย AOT–กลุ่มแบงก์",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/infographic/858314",
-          "published_at": "2026-09-24T15:56:02.056594+07:00",
+          "published_at": "2026-09-25T16:16:44.064647+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "เปิด 5 อันดับหุ้นต่างชาติขายสุทธิผ่าน NVDR จัดหนัก AOT สูงสุด 492.86 ล้าน",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/858341",
-          "published_at": "2026-09-24T15:56:02.056533+07:00",
+          "published_at": "2026-09-25T16:16:44.064473+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "เปิด 5 อันดับหุ้นต่างชาติขายสุทธิผ่าน NVDR จัดหนัก AOT สูงสุด 461.29 ล้าน",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/858826",
-          "published_at": "2026-09-24T15:56:02.056473+07:00",
+          "published_at": "2026-09-25T16:16:44.064323+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "AOT บวก 2% รับผู้โดยสาร ส.ค. ฟื้น โบรกคาดทั้งปีแตะ 128 ล้านคน เคาะเป้า 64 บาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/breakingnews/860083",
-          "published_at": "2026-09-24T15:56:02.056409+07:00",
+          "published_at": "2026-09-25T16:16:44.064182+07:00",
           "sentiment": 1.0
         }
       ],
@@ -225,23 +223,23 @@
         "short_term": {
           "action": "HOLD",
           "confidence": 0.64,
-          "target_price": 63.97,
-          "stop_loss": 59.14,
-          "reasoning": "CCI short-term = +0.28, RSI = 42.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 63.71,
+          "stop_loss": 58.9,
+          "reasoning": "CCI short-term = +0.28, RSI = 46.7, อยู่ในโซน red [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
           "confidence": 0.62,
-          "target_price": 63.69,
-          "stop_loss": 59.14,
-          "reasoning": "CCI medium-term = +0.23, RSI = 42.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 63.44,
+          "stop_loss": 58.9,
+          "reasoning": "CCI medium-term = +0.23, RSI = 46.7, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
           "confidence": 0.62,
-          "target_price": 63.7,
-          "stop_loss": 59.14,
-          "reasoning": "CCI long-term = +0.23, RSI = 42.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 63.44,
+          "stop_loss": 58.9,
+          "reasoning": "CCI long-term = +0.23, RSI = 46.7, อยู่ในโซน red [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -250,18 +248,18 @@
       "symbol": "CPALL.BK",
       "name": "ซีพี ออลล์",
       "sector": "Commerce",
-      "price": 44.25,
-      "change_pct": -1.12,
+      "price": 44.0,
+      "change_pct": -0.56,
       "indicators": {
-        "price": 44.25,
+        "price": 44.0,
         "rsi_14": 25.0,
-        "ema_12": 45.02625059661452,
-        "ema_26": 45.628777822811145,
-        "macd": -0.6025272261966279,
-        "macd_signal": -0.512451690277446,
-        "macd_hist": -0.09007553591918194,
-        "sma_50": 46.61,
-        "sma_200": 45.27080976486206,
+        "ema_12": 44.868365889443055,
+        "ema_26": 45.508127613714024,
+        "macd": -0.6397617242709686,
+        "macd_signal": -0.5379136970761504,
+        "macd_hist": -0.10184802719481811,
+        "sma_50": 46.55,
+        "sma_200": 45.2824017906189,
         "atr_14": 0.6071428571428571,
         "cdc_zone": "red",
         "history_days": 250
@@ -277,35 +275,35 @@
           "headline": "CGSI มอง SET ฟื้นตัว รับ Thailand Focus-กนง. ชู THAI-CPALL เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/857575",
-          "published_at": "2026-09-24T15:56:12.847284+07:00",
+          "published_at": "2026-09-25T16:16:54.647027+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "DBSV แนะช้อป CPALL-KTB-PR9 รับกำไรเด่น-ปันผลสูง",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/860488",
-          "published_at": "2026-09-24T15:56:12.847223+07:00",
+          "published_at": "2026-09-25T16:16:54.646880+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "“ค้าปลีก” ส่งสัญญาณดีขึ้น! CPALL รับท่องเที่ยว-BJC ฟื้นเกินคาด",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/860510",
-          "published_at": "2026-09-24T15:56:12.847162+07:00",
+          "published_at": "2026-09-25T16:16:54.646738+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "CGSI ชี้ SET ผันผวน จับตาเฟด-เงินเฟ้อสหรัฐ ชู BDMS-CPALL",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/860815",
-          "published_at": "2026-09-24T15:56:12.847065+07:00",
+          "published_at": "2026-09-25T16:16:54.646509+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "KS-ASPS มอง SSSG กลุ่มค้าปลีก ส.ค.ฟื้นตัว รับฐานต่ำ ชู CPALL-CRC-DOHOME -MOSHI เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/861187",
-          "published_at": "2026-09-24T15:56:12.847005+07:00",
+          "published_at": "2026-09-25T16:16:54.646372+07:00",
           "sentiment": 1.0
         }
       ],
@@ -313,22 +311,22 @@
         "short_term": {
           "action": "HOLD",
           "confidence": 0.4,
-          "target_price": 45.83,
-          "stop_loss": 42.04,
+          "target_price": 45.57,
+          "stop_loss": 41.8,
           "reasoning": "CCI short-term = +0.36, RSI = 25.0, อยู่ในโซน red [rule-based fallback] [Guardrail: signal conflict between technical and sentiment]"
         },
         "medium_term": {
           "action": "HOLD",
           "confidence": 0.58,
-          "target_price": 44.98,
-          "stop_loss": 42.04,
+          "target_price": 44.73,
+          "stop_loss": 41.8,
           "reasoning": "CCI medium-term = +0.17, RSI = 25.0, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
           "confidence": 0.55,
-          "target_price": 43.84,
-          "stop_loss": 42.04,
+          "target_price": 43.59,
+          "stop_loss": 41.8,
           "reasoning": "CCI long-term = -0.09, RSI = 25.0, อยู่ในโซน red [rule-based fallback]"
         }
       },
@@ -340,19 +338,19 @@
       "symbol": "ADVANC.BK",
       "name": "แอดวานซ์ อินโฟร์ เซอร์วิส",
       "sector": "Telecom",
-      "price": 344.0,
-      "change_pct": -0.86,
+      "price": 347.0,
+      "change_pct": 0.58,
       "indicators": {
-        "price": 344.0,
-        "rsi_14": 48.38709677419355,
-        "ema_12": 348.50086965865813,
-        "ema_26": 351.79637803217173,
-        "macd": -3.2955083735135986,
-        "macd_signal": -3.1072876382663774,
-        "macd_hist": -0.18822073524722116,
-        "sma_50": 358.6322344970703,
-        "sma_200": 343.8156544494629,
-        "atr_14": 6.428571428571429,
+        "price": 347.0,
+        "rsi_14": 40.38461538461538,
+        "ema_12": 348.40014414904215,
+        "ema_26": 351.5096778720643,
+        "macd": -3.109533723022139,
+        "macd_signal": -3.094973317258246,
+        "macd_hist": -0.014560405763893058,
+        "sma_50": 358.18930480957033,
+        "sma_200": 344.1673257446289,
+        "atr_14": 6.0,
         "cdc_zone": "red",
         "history_days": 250
       },
@@ -367,35 +365,35 @@
           "headline": "ADVANC โผล่บิ๊กล็อต 431 ล้านบาท ราคาเฉลี่ย 350.13 บ. สูงกว่ากระดาน",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/859957",
-          "published_at": "2026-09-24T15:56:25.920632+07:00",
+          "published_at": "2026-09-25T16:17:05.917556+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "“กัณฑรา” ชี้ฟันด์โฟลว์ยังอยู่ แนะ Selective Buy ชู GULF-ADVANC-BBL-KBANK",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/860461",
-          "published_at": "2026-09-24T15:56:25.920569+07:00",
+          "published_at": "2026-09-25T16:17:05.917400+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "สรุปกระดานรายใหญ่เช้านี้ ADVANC มูลค่าสูงสุด 20.30 ล้านบาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/summary/860949",
-          "published_at": "2026-09-24T15:56:25.920507+07:00",
+          "published_at": "2026-09-25T16:17:05.917263+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "ADVANC-TRUE กอดคอบวก รับต้นทุนลด-ARPU โต โบรกเพิ่มน้ำหนักกลุ่มสื่อสาร",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/breakingnews/861003",
-          "published_at": "2026-09-24T15:56:25.920445+07:00",
+          "published_at": "2026-09-25T16:17:05.917120+07:00",
           "sentiment": 0.3333333333333333
         },
         {
           "headline": "ADVANC เปิดเวที “AIS Academy for THAIs 2026” ยกระดับทักษะ AI เพิ่มขีดแข่งขันไทย",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/pr/862541",
-          "published_at": "2026-09-24T15:56:25.920382+07:00",
+          "published_at": "2026-09-25T16:17:05.916981+07:00",
           "sentiment": 1.0
         }
       ],
@@ -403,23 +401,23 @@
         "short_term": {
           "action": "HOLD",
           "confidence": 0.54,
-          "target_price": 346.48,
-          "stop_loss": 326.8,
-          "reasoning": "CCI short-term = +0.07, RSI = 48.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 349.5,
+          "stop_loss": 329.65,
+          "reasoning": "CCI short-term = +0.07, RSI = 40.4, อยู่ในโซน red [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
           "confidence": 0.5,
-          "target_price": 344.07,
-          "stop_loss": 326.8,
-          "reasoning": "CCI medium-term = +0.00, RSI = 48.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 347.07,
+          "stop_loss": 329.65,
+          "reasoning": "CCI medium-term = +0.00, RSI = 40.4, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
           "confidence": 0.52,
-          "target_price": 345.2,
-          "stop_loss": 326.8,
-          "reasoning": "CCI long-term = +0.04, RSI = 48.4, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 348.21,
+          "stop_loss": 329.65,
+          "reasoning": "CCI long-term = +0.04, RSI = 40.4, อยู่ในโซน red [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -428,19 +426,19 @@
       "symbol": "KBANK.BK",
       "name": "กสิกรไทย",
       "sector": "Banking",
-      "price": 251.0,
-      "change_pct": -1.57,
+      "price": 253.0,
+      "change_pct": 0.8,
       "indicators": {
-        "price": 251.0,
-        "rsi_14": 58.06871010952644,
-        "ema_12": 251.98085704058354,
-        "ema_26": 249.25502152120444,
-        "macd": 2.7258355193791033,
-        "macd_signal": 2.4666440718440223,
-        "macd_hist": 0.25919144753508094,
-        "sma_50": 245.91064697265625,
-        "sma_200": 203.36348220825195,
-        "atr_14": 4.211405534472277,
+        "price": 253.0,
+        "rsi_14": 59.389952609528464,
+        "ema_12": 252.1376482651092,
+        "ema_26": 249.5324273490075,
+        "macd": 2.6052209161017004,
+        "macd_signal": 2.494359422197199,
+        "macd_hist": 0.11086149390450117,
+        "sma_50": 246.3283889770508,
+        "sma_200": 203.73932777404787,
+        "atr_14": 4.283986175115207,
         "cdc_zone": "green",
         "history_days": 250
       },
@@ -452,62 +450,62 @@
       "news_count_7d": 10,
       "top_news": [
         {
-          "headline": "CGSI มอง SET แกว่ง 1,565-1,590 จุด น้ำมัน-Bond Yield กดดัน ชู PTTEP-KBANK",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/863436",
-          "published_at": "2026-09-24T15:57:34.100488+07:00",
-          "sentiment": -1.0
-        },
-        {
           "headline": "CGSI มอง SET รีบาวด์กรอบ 1,550-1,585 จุด หลังเฟดขึ้นดอกเบี้ยตามคาด ชู BJC-KBANK",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863794",
-          "published_at": "2026-09-24T15:57:34.100430+07:00",
+          "published_at": "2026-09-25T16:17:16.533409+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "“ฐกฤต” ชี้ SET รีบาวด์ รับเฟดตามคาด-น้ำมันอ่อนตัว ชู DELTA-THAI-KBANK เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863833",
-          "published_at": "2026-09-24T15:57:34.100367+07:00",
+          "published_at": "2026-09-25T16:17:16.533271+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "KBANK ออกบอนด์ 800 ล้านเหรียญ ดอกเบี้ย 6.278% เสริมแกร่งเงินกองทุน Tier 2",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864168",
-          "published_at": "2026-09-24T15:57:34.100304+07:00",
+          "published_at": "2026-09-25T16:17:16.533131+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "KBANK มองกรอบเงินบาทสัปดาห์หน้า 33.00-33.60 บ. จับตาส่งออกไทย-ซัมมิท “ทรัมป์-สี”",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864604",
-          "published_at": "2026-09-24T15:57:34.100240+07:00",
+          "published_at": "2026-09-25T16:17:16.532986+07:00",
           "sentiment": 0.0
+        },
+        {
+          "headline": "“หุ้นแบงก์” วิ่งคึก! ชู KTB-KBANK เด่น ฟาก “ยูบีเอส” อัพเป้า SCB ใหม่ 165 บาท",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/breakingnews/864932",
+          "published_at": "2026-09-25T16:17:16.532845+07:00",
+          "sentiment": 1.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
           "confidence": 0.64,
-          "target_price": 258.23,
-          "stop_loss": 238.45,
-          "reasoning": "CCI short-term = +0.29, RSI = 58.1, อยู่ในโซน green [rule-based fallback]"
+          "target_price": 260.29,
+          "stop_loss": 240.35,
+          "reasoning": "CCI short-term = +0.29, RSI = 59.4, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "BUY",
           "confidence": 0.68,
-          "target_price": 260.16,
-          "stop_loss": 238.45,
-          "reasoning": "CCI medium-term = +0.36, RSI = 58.1, อยู่ในโซน green [rule-based fallback]"
+          "target_price": 262.23,
+          "stop_loss": 240.35,
+          "reasoning": "CCI medium-term = +0.36, RSI = 59.4, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
           "action": "BUY",
           "confidence": 0.74,
-          "target_price": 262.92,
-          "stop_loss": 238.45,
-          "reasoning": "CCI long-term = +0.47, RSI = 58.1, อยู่ในโซน green [rule-based fallback]"
+          "target_price": 265.02,
+          "stop_loss": 240.35,
+          "reasoning": "CCI long-term = +0.47, RSI = 59.4, อยู่ในโซน green [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -516,86 +514,86 @@
       "symbol": "SCB.BK",
       "name": "ไทยพาณิชย์",
       "sector": "Banking",
-      "price": 155.5,
-      "change_pct": -0.32,
+      "price": 156.5,
+      "change_pct": 0.32,
       "indicators": {
-        "price": 155.5,
-        "rsi_14": 68.73714991723473,
-        "ema_12": 153.32598359583412,
-        "ema_26": 151.8121542452309,
-        "macd": 1.5138293506032312,
-        "macd_signal": 0.752658145189272,
-        "macd_hist": 0.7611712054139592,
-        "sma_50": 151.14197204589843,
-        "sma_200": 137.91909587860107,
-        "atr_14": 2.034304683369801,
+        "price": 156.5,
+        "rsi_14": 70.96774193548387,
+        "ema_12": 153.87938256925605,
+        "ema_26": 152.19369563579943,
+        "macd": 1.6856869334566227,
+        "macd_signal": 0.9456456640533736,
+        "macd_hist": 0.7400412694032491,
+        "sma_50": 151.1832879638672,
+        "sma_200": 138.0967735671997,
+        "atr_14": 2.0714285714285716,
         "cdc_zone": "green",
         "history_days": 250
       },
-      "technical_score": 0.417,
+      "technical_score": 0.277,
       "sentiment_score": 0.1,
-      "cci_short": 0.168,
-      "cci_medium": 0.265,
-      "cci_long": 0.415,
+      "cci_short": 0.072,
+      "cci_medium": 0.205,
+      "cci_long": 0.373,
       "news_count_7d": 10,
       "top_news": [
-        {
-          "headline": "SCB Financial Markets คาดกรอบเงินบาท 33.15-33.40 บาท/ดอลลาร์",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/864680",
-          "published_at": "2026-09-24T15:57:45.768180+07:00",
-          "sentiment": 0.0
-        },
         {
           "headline": "สรุปกระดานรายใหญ่เช้านี้ SCB มูลค่าสูงสุด 6.14 ล้านบาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/summary/864856",
-          "published_at": "2026-09-24T15:57:45.768121+07:00",
+          "published_at": "2026-09-25T16:17:27.533539+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "UBS อัพเป้า SCB ใหม่ 165 บาท ชี้ตั้งสำรองลด-ปันผลพุ่ง ดึงดูดเม็ดเงินไหลเข้า",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864846",
-          "published_at": "2026-09-24T15:57:45.768059+07:00",
+          "published_at": "2026-09-25T16:17:27.533384+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "“หุ้นแบงก์” วิ่งคึก! ชู KTB-KBANK เด่น ฟาก “ยูบีเอส” อัพเป้า SCB ใหม่ 165 บาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/breakingnews/864932",
-          "published_at": "2026-09-24T15:57:45.767999+07:00",
+          "published_at": "2026-09-25T16:17:27.533246+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "SCB Financial Markets คาดกรอบเงินบาท 33.10-33.35 บาท/ดอลลาร์",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/865119",
-          "published_at": "2026-09-24T15:57:45.767939+07:00",
+          "published_at": "2026-09-25T16:17:27.533110+07:00",
+          "sentiment": 0.0
+        },
+        {
+          "headline": "เปิด 5 อันดับหุ้นต่างชาติซื้อสุทธิผ่าน NVDR จัดหนัก SCB สูงสุด 1.59 พันล้าน",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/news/865111",
+          "published_at": "2026-09-25T16:17:27.532973+07:00",
           "sentiment": 0.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
-          "confidence": 0.58,
-          "target_price": 158.11,
-          "stop_loss": 147.72,
-          "reasoning": "CCI short-term = +0.17, RSI = 68.7, อยู่ในโซน green [rule-based fallback]"
+          "confidence": 0.54,
+          "target_price": 157.63,
+          "stop_loss": 148.67,
+          "reasoning": "CCI short-term = +0.07, RSI = 71.0, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
-          "confidence": 0.63,
-          "target_price": 159.62,
-          "stop_loss": 147.72,
-          "reasoning": "CCI medium-term = +0.27, RSI = 68.7, อยู่ในโซน green [rule-based fallback]"
+          "confidence": 0.6,
+          "target_price": 159.71,
+          "stop_loss": 148.67,
+          "reasoning": "CCI medium-term = +0.20, RSI = 71.0, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
           "action": "BUY",
-          "confidence": 0.71,
-          "target_price": 161.95,
-          "stop_loss": 147.72,
-          "reasoning": "CCI long-term = +0.41, RSI = 68.7, อยู่ในโซน green [rule-based fallback]"
+          "confidence": 0.69,
+          "target_price": 162.34,
+          "stop_loss": 148.67,
+          "reasoning": "CCI long-term = +0.37, RSI = 71.0, อยู่ในโซน green [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -605,18 +603,18 @@
       "name": "กรุงเทพ",
       "sector": "Banking",
       "price": 193.0,
-      "change_pct": -1.03,
+      "change_pct": 0.26,
       "indicators": {
         "price": 193.0,
-        "rsi_14": 54.084432652353854,
-        "ema_12": 193.18336897065257,
-        "ema_26": 191.7513957084517,
-        "macd": 1.43197326220087,
-        "macd_signal": 1.0861108797538388,
-        "macd_hist": 0.34586238244703127,
-        "sma_50": 190.8715557861328,
-        "sma_200": 170.11685806274414,
-        "atr_14": 2.7827458193543566,
+        "rsi_14": 55.278296138549194,
+        "ema_12": 193.09006960238645,
+        "ema_26": 191.80959136628496,
+        "macd": 1.2804782361014873,
+        "macd_signal": 1.1186025797319858,
+        "macd_hist": 0.1618756563695014,
+        "sma_50": 190.72352996826172,
+        "sma_200": 170.3019235229492,
+        "atr_14": 2.7842300556586275,
         "cdc_zone": "green",
         "history_days": 250
       },
@@ -631,35 +629,35 @@
           "headline": "BBL เดินหน้าปั้นธุรกิจสีเขียว ผ่าน Green Transition Academy",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/862002",
-          "published_at": "2026-09-24T15:57:56.804019+07:00",
+          "published_at": "2026-09-25T16:17:38.207187+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "BBL ระดมทุน 750 ล้านเหรียญ ผ่านหุ้นกู้ต่างประเทศ ดอกเบี้ยสูงสุด 5.796%",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/862303",
-          "published_at": "2026-09-24T15:57:56.803956+07:00",
+          "published_at": "2026-09-25T16:17:38.207035+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "“บล.ฟินันเซีย ไซรัส” ชู BBL เด่น รับบอนด์ยีลด์ขาขึ้น-สินเชื่อเร่ง แนะซื้อเป้า 240 บาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/stockanalysis/863110",
-          "published_at": "2026-09-24T15:57:56.803843+07:00",
+          "published_at": "2026-09-25T16:17:38.206831+07:00",
           "sentiment": 0.3333333333333333
         },
         {
           "headline": "BBL ลุยปั้นผู้ประกอบการ ผ่านเปิดหลักสูตร The Big Blue Ocean",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863564",
-          "published_at": "2026-09-24T15:57:56.803774+07:00",
+          "published_at": "2026-09-25T16:17:38.206677+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "Pi เปิดสถิติเฟดขึ้นดอกเบี้ย แนะสะสมหุ้นเด่น BCH-BBL-TU-MTC",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/863973",
-          "published_at": "2026-09-24T15:57:56.803710+07:00",
+          "published_at": "2026-09-25T16:17:38.206491+07:00",
           "sentiment": 1.0
         }
       ],
@@ -669,21 +667,21 @@
           "confidence": 0.61,
           "target_price": 197.28,
           "stop_loss": 183.35,
-          "reasoning": "CCI short-term = +0.22, RSI = 54.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI short-term = +0.22, RSI = 55.3, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "BUY",
           "confidence": 0.66,
           "target_price": 198.98,
           "stop_loss": 183.35,
-          "reasoning": "CCI medium-term = +0.31, RSI = 54.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI medium-term = +0.31, RSI = 55.3, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
           "action": "BUY",
           "confidence": 0.72,
           "target_price": 201.53,
           "stop_loss": 183.35,
-          "reasoning": "CCI long-term = +0.44, RSI = 54.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI long-term = +0.44, RSI = 55.3, อยู่ในโซน green [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -693,18 +691,18 @@
       "name": "กรุงเทพดุสิตเวชการ",
       "sector": "Healthcare",
       "price": 20.100000381469727,
-      "change_pct": -0.5,
+      "change_pct": 0.5,
       "indicators": {
         "price": 20.100000381469727,
-        "rsi_14": 51.0638505098285,
-        "ema_12": 19.993686960592925,
-        "ema_26": 19.8128936771935,
-        "macd": 0.18079328339942435,
-        "macd_signal": 0.1968155517554715,
-        "macd_hist": -0.016022268356047142,
-        "sma_50": 19.472951622009276,
-        "sma_200": 18.810474634170532,
-        "atr_14": 0.3353472362978476,
+        "rsi_14": 50.98041122295033,
+        "ema_12": 19.997025070358976,
+        "ema_26": 19.827302104165305,
+        "macd": 0.169722966193671,
+        "macd_signal": 0.19012067596623636,
+        "macd_hist": -0.02039770977256536,
+        "sma_50": 19.485711402893067,
+        "sma_200": 18.82074028968811,
+        "atr_14": 0.33571488516671316,
         "cdc_zone": "green",
         "history_days": 250
       },
@@ -716,39 +714,39 @@
       "news_count_7d": 10,
       "top_news": [
         {
-          "headline": "CGSI ชี้ SET แกว่งกรอบ 1,605-1,625 จุด ชู BDMS-PTTEP เด่น รับกำไรโต-น้ำมันพุ่ง",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/861206",
-          "published_at": "2026-09-24T15:58:09.471175+07:00",
-          "sentiment": 1.0
-        },
-        {
           "headline": "KGI ชี้หุ้น รพ. ฟื้นครึ่งปีหลัง รับไฮซีซั่น-ต่างชาติ ลุ้น SSO ปรับค่ารักษา ชู BDMS-BCH",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/861241",
-          "published_at": "2026-09-24T15:58:09.471115+07:00",
+          "published_at": "2026-09-25T16:17:48.679482+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "BDMS เด้ง 2% ลุ้นกำไร Q3 นิวไฮ รับผู้ป่วยไทยฟื้น-ต่างชาติหนุน ชูเป้า 25 บาท",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/breakingnews/862017",
-          "published_at": "2026-09-24T15:58:09.471054+07:00",
+          "published_at": "2026-09-25T16:17:48.679343+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "CGSI ชี้ SET เสี่ยงอ่อนตัว รับน้ำมันทะลุ 100 ดอลลาร์-Bond Yield จ่อ 5% แนะ BDMS-PTTEP",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/862288",
-          "published_at": "2026-09-24T15:58:09.470991+07:00",
+          "published_at": "2026-09-25T16:17:48.679207+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "ส่องพอร์ต​ NVDR รอบ​ 5 วัน ต่างชาติซื้อ PTTEP นำ 2.6 พันล้าน ขาย BDMS สูงสุด",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/general/862668",
-          "published_at": "2026-09-24T15:58:09.470928+07:00",
+          "published_at": "2026-09-25T16:17:48.679068+07:00",
           "sentiment": 0.0
+        },
+        {
+          "headline": "“ชัยยศ” ชี้ SET ลุ้น Technical Rebound เน้นหุ้น Defensive ชู BDMS-BCH เด่น",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/news/863476",
+          "published_at": "2026-09-25T16:17:48.678930+07:00",
+          "sentiment": 1.0
         }
       ],
       "recommendations": {
@@ -757,21 +755,21 @@
           "confidence": 0.66,
           "target_price": 20.75,
           "stop_loss": 19.09,
-          "reasoning": "CCI short-term = +0.32, RSI = 51.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI short-term = +0.32, RSI = 51.0, อยู่ในโซน green [rule-based fallback]"
         },
         "medium_term": {
           "action": "BUY",
           "confidence": 0.67,
           "target_price": 20.77,
           "stop_loss": 19.09,
-          "reasoning": "CCI medium-term = +0.34, RSI = 51.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI medium-term = +0.34, RSI = 51.0, อยู่ในโซน green [rule-based fallback]"
         },
         "long_term": {
           "action": "BUY",
           "confidence": 0.7,
           "target_price": 20.9,
           "stop_loss": 19.09,
-          "reasoning": "CCI long-term = +0.40, RSI = 51.1, อยู่ในโซน green [rule-based fallback]"
+          "reasoning": "CCI long-term = +0.40, RSI = 51.0, อยู่ในโซน green [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -780,86 +778,86 @@
       "symbol": "GULF.BK",
       "name": "กัลฟ์ เอ็นเนอร์จี",
       "sector": "Energy",
-      "price": 60.25,
-      "change_pct": -3.21,
+      "price": 61.0,
+      "change_pct": 0.83,
       "indicators": {
-        "price": 60.25,
-        "rsi_14": 40.625,
-        "ema_12": 61.58594222193268,
-        "ema_26": 62.25064276347036,
-        "macd": -0.6647005415376768,
-        "macd_signal": -0.7359798336494686,
-        "macd_hist": 0.07127929211179185,
-        "sma_50": 64.02,
-        "sma_200": 57.02233865737915,
-        "atr_14": 1.0892857142857142,
+        "price": 61.0,
+        "rsi_14": 41.935483870967744,
+        "ema_12": 61.5283416434105,
+        "ema_26": 62.175149338306284,
+        "macd": -0.6468076948957844,
+        "macd_signal": -0.7149545266865551,
+        "macd_hist": 0.06814683179077075,
+        "sma_50": 63.895,
+        "sma_200": 57.13788805007935,
+        "atr_14": 1.0357142857142858,
         "cdc_zone": "red",
         "history_days": 250
       },
       "technical_score": 0.17,
-      "sentiment_score": 0.3,
-      "cci_short": 0.256,
-      "cci_medium": 0.215,
-      "cci_long": 0.223,
+      "sentiment_score": 0.2,
+      "cci_short": 0.196,
+      "cci_medium": 0.165,
+      "cci_long": 0.193,
       "news_count_7d": 10,
       "top_news": [
-        {
-          "headline": "KTB เปิดจอง “หุ้นกู้ดิจิทัล GULF” บนแอปฯ เป๋าตัง ดีเดย์ 19 ต.ค. นี้",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/863547",
-          "published_at": "2026-09-24T15:58:20.516183+07:00",
-          "sentiment": 1.0
-        },
-        {
-          "headline": "“สารัชถ์” ควัก 147 ล้านบาท ซื้อ GULF เติมพอร์ต 2.42 ล้านหุ้น",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/863727",
-          "published_at": "2026-09-24T15:58:20.516123+07:00",
-          "sentiment": 0.0
-        },
         {
           "headline": "CGSI มอง SET ลุ้นทดสอบ 1,600 จุด รับน้ำมัน-บอนด์ยีลด์ชะลอ ชู DELTA-GULF",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864180",
-          "published_at": "2026-09-24T15:58:20.516055+07:00",
+          "published_at": "2026-09-25T16:17:59.721621+07:00",
           "sentiment": -1.0
         },
         {
           "headline": "“กัณฑรา” มอง SET ฟื้นต่อ! รับดอกเบี้ยชัด-น้ำมันอ่อน หนุน 3 ธีมลงทุน ชู DELTA-GULF เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864252",
-          "published_at": "2026-09-24T15:58:20.515993+07:00",
+          "published_at": "2026-09-25T16:17:59.721420+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "บล.กรุงศรี มองบวกกลุ่มโรงไฟฟ้า รับรัฐดันโซลาร์ 1 หมื่นเมกวัตต์ ชู GULF-GPSC เด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/864720",
-          "published_at": "2026-09-24T15:58:20.515929+07:00",
+          "published_at": "2026-09-25T16:17:59.721220+07:00",
           "sentiment": 1.0
+        },
+        {
+          "headline": "GUNKUL-GULF เด้ง! รับรัฐขยายโควตา “โซลาร์รูฟท็อป” 1 หมื่นเมกะวัตต์",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/breakingnews/864787",
+          "published_at": "2026-09-25T16:17:59.721038+07:00",
+          "sentiment": 0.0
+        },
+        {
+          "headline": "GULF มอบ 1 ล้านบาท หนุนกองทุนกองกำลังสุรนารี ช่วยครอบครัวทหารชายแดน",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/pr/864985",
+          "published_at": "2026-09-25T16:17:59.720835+07:00",
+          "sentiment": 0.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
-          "confidence": 0.63,
-          "target_price": 61.79,
-          "stop_loss": 57.24,
-          "reasoning": "CCI short-term = +0.26, RSI = 40.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.6,
+          "target_price": 62.2,
+          "stop_loss": 57.95,
+          "reasoning": "CCI short-term = +0.20, RSI = 41.9, อยู่ในโซน red [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
-          "confidence": 0.61,
-          "target_price": 61.55,
-          "stop_loss": 57.24,
-          "reasoning": "CCI medium-term = +0.21, RSI = 40.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.58,
+          "target_price": 62.01,
+          "stop_loss": 57.95,
+          "reasoning": "CCI medium-term = +0.17, RSI = 41.9, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
-          "confidence": 0.61,
-          "target_price": 61.59,
-          "stop_loss": 57.24,
-          "reasoning": "CCI long-term = +0.22, RSI = 40.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.6,
+          "target_price": 62.18,
+          "stop_loss": 57.95,
+          "reasoning": "CCI long-term = +0.19, RSI = 41.9, อยู่ในโซน red [rule-based fallback]"
         }
       },
       "risk_flags": []
@@ -868,109 +866,110 @@
       "symbol": "DELTA.BK",
       "name": "เดลต้า อีเลคโทรนิคส์",
       "sector": "Electronics",
-      "price": 257.0,
-      "change_pct": 0.39,
+      "price": 262.0,
+      "change_pct": 2.75,
       "indicators": {
-        "price": 257.0,
-        "rsi_14": 50.57471264367816,
-        "ema_12": 251.48786450375505,
-        "ema_26": 256.0462709475773,
-        "macd": -4.558406443822236,
-        "macd_signal": -6.012497947567857,
-        "macd_hist": 1.4540915037456212,
-        "sma_50": 265.82,
-        "sma_200": 266.4089730072021,
-        "atr_14": 10.357142857142858,
+        "price": 262.0,
+        "rsi_14": 40.54054054054053,
+        "ema_12": 252.84476108897616,
+        "ema_26": 256.3501137075713,
+        "macd": -3.5053526185951682,
+        "macd_signal": -5.536595952886136,
+        "macd_hist": 2.031243334290968,
+        "sma_50": 265.02,
+        "sma_200": 266.751138381958,
+        "atr_14": 9.5,
         "cdc_zone": "red",
         "history_days": 250
       },
-      "technical_score": -0.217,
-      "sentiment_score": 0.4,
-      "cci_short": 0.208,
-      "cci_medium": 0.115,
-      "cci_long": -0.16,
+      "technical_score": -0.123,
+      "sentiment_score": 0.6,
+      "cci_short": 0.392,
+      "cci_medium": 0.255,
+      "cci_long": -0.072,
       "news_count_7d": 10,
       "top_news": [
-        {
-          "headline": "“กรุงศรี”ชี้ SET สัปดาห์นี้ Sideways Up รับแรงส่ง AI-น้ำมันลด ชู DELTA-COM7-ERW",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/news/864634",
-          "published_at": "2026-09-24T15:58:36.634950+07:00",
-          "sentiment": -1.0
-        },
-        {
-          "headline": "หุ้นอิเล็กบวกยกแผง! รับธีม AI โบรกชู DELTA เด่น กำไร Q3 โต 45% แตะ 8.8 พันล้าน",
-          "source": "Kaohoon (scrape)",
-          "url": "https://www.kaohoon.com/breakingnews/864742",
-          "published_at": "2026-09-24T15:58:36.634888+07:00",
-          "sentiment": 1.0
-        },
         {
           "headline": "SET ปิดเช้าบวก 9 จุด รับ Fitch หนุน-แรงซื้อ DELTA แบงก์คึก บ่ายลุ้นแตะ 1,600 จุด",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/summary/864859",
-          "published_at": "2026-09-24T15:58:36.634819+07:00",
+          "published_at": "2026-09-25T16:18:11.038209+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "CGSI ลุ้น SET ยืนเหนือ 1,600 จุด รับหุ้นเทคโลกฟื้น-น้ำมันร่วง แนะเก็บ DELTA-GULF",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/865132",
-          "published_at": "2026-09-24T15:58:36.634756+07:00",
+          "published_at": "2026-09-25T16:18:11.038067+07:00",
           "sentiment": 0.0
         },
         {
           "headline": "สรุป SET100 เช้านี้ DELTA บวกสูงสุด 4%",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/summary/865209",
-          "published_at": "2026-09-24T15:58:36.634698+07:00",
+          "published_at": "2026-09-25T16:18:11.037924+07:00",
           "sentiment": 1.0
+        },
+        {
+          "headline": "SET ปิดบวก 6 จุด รับแรงซื้อ DELTA พ่วงน้ำมัน-บอนด์ยีลด์อ่อนตัว พรุ่งนี้ไซด์เวย์",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/summary/865391",
+          "published_at": "2026-09-25T16:18:11.037782+07:00",
+          "sentiment": 0.0
+        },
+        {
+          "headline": "KBANK ครองแชมป์ซื้อ NVDR ด้าน DELTA เจอแรงขาย 867 ล้านบาท",
+          "source": "Kaohoon (scrape)",
+          "url": "https://www.kaohoon.com/infographic/865437",
+          "published_at": "2026-09-25T16:18:11.037639+07:00",
+          "sentiment": 0.0
         }
       ],
       "recommendations": {
         "short_term": {
           "action": "HOLD",
-          "confidence": 0.6,
-          "target_price": 262.35,
-          "stop_loss": 244.15,
-          "reasoning": "CCI short-term = +0.21, RSI = 50.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.4,
+          "target_price": 272.27,
+          "stop_loss": 248.9,
+          "reasoning": "CCI short-term = +0.39, RSI = 40.5, อยู่ในโซน red [rule-based fallback] [Guardrail: signal conflict between technical and sentiment]"
         },
         "medium_term": {
           "action": "HOLD",
-          "confidence": 0.56,
-          "target_price": 259.96,
-          "stop_loss": 244.15,
-          "reasoning": "CCI medium-term = +0.12, RSI = 50.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.63,
+          "target_price": 268.68,
+          "stop_loss": 248.9,
+          "reasoning": "CCI medium-term = +0.26, RSI = 40.5, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
-          "confidence": 0.58,
-          "target_price": 252.89,
-          "stop_loss": 244.15,
-          "reasoning": "CCI long-term = -0.16, RSI = 50.6, อยู่ในโซน red [rule-based fallback]"
+          "confidence": 0.54,
+          "target_price": 260.11,
+          "stop_loss": 248.9,
+          "reasoning": "CCI long-term = -0.07, RSI = 40.5, อยู่ในโซน red [rule-based fallback]"
         }
       },
       "risk_flags": [
-        "DEATH_CROSS_REGIME"
+        "DEATH_CROSS_REGIME",
+        "SIGNAL_CONFLICT"
       ]
     },
     {
       "symbol": "MINT.BK",
       "name": "ไมเนอร์ อินเตอร์เนชั่นแนล",
       "sector": "Tourism",
-      "price": 21.5,
-      "change_pct": -1.83,
+      "price": 21.700000762939453,
+      "change_pct": 0.46,
       "indicators": {
-        "price": 21.5,
-        "rsi_14": 35.99998474121094,
-        "ema_12": 21.75172446859286,
-        "ema_26": 21.977571187330575,
-        "macd": -0.22584671873771356,
-        "macd_signal": -0.24417141406803408,
-        "macd_hist": 0.018324695330320523,
-        "sma_50": 22.403145637512207,
-        "sma_200": 22.53833613395691,
-        "atr_14": 0.42142854418073383,
+        "price": 21.700000762939453,
+        "rsi_14": 39.99999999999999,
+        "ema_12": 21.75678477655351,
+        "ema_26": 21.963869153721784,
+        "macd": -0.20708437716827532,
+        "macd_signal": -0.23547765088317998,
+        "macd_hist": 0.02839327371490466,
+        "sma_50": 22.37338352203369,
+        "sma_200": 22.531210222244262,
+        "atr_14": 0.4214286804199219,
         "cdc_zone": "red",
         "history_days": 250
       },
@@ -985,35 +984,35 @@
           "headline": "“แคมเปญททท.-Grab” หนุนท่องเที่ยวไทย โบรกมองบวกหุ้น ERW-CENTEL-MINT",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/843666",
-          "published_at": "2026-09-24T15:58:47.992599+07:00",
+          "published_at": "2026-09-25T16:18:21.563929+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "“โรบอทเทรด” กินวอลุ่มตลาด 44% แรงขาย MINT กดหุ้นปิดลบ 5%",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/849095",
-          "published_at": "2026-09-24T15:58:47.992539+07:00",
+          "published_at": "2026-09-25T16:18:21.563780+07:00",
           "sentiment": -1.0
         },
         {
           "headline": "MINT บวก 2% หลังฟันด์โฟลว์เข้าต่อเนื่อง โบรกแนะ “ซื้อ” เป้า 35.20 บ. ลุ้นงบ Q2 โตเด่น",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/breakingnews/850911",
-          "published_at": "2026-09-24T15:58:47.992478+07:00",
+          "published_at": "2026-09-25T16:18:21.563639+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "MINT โชว์กำไร Q2 โต 7% แตะ 3.3 พันล้านบาท รับธุรกิจโรงแรม-อาหารหนุน",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/852601",
-          "published_at": "2026-09-24T15:58:47.992417+07:00",
+          "published_at": "2026-09-25T16:18:21.563469+07:00",
           "sentiment": 1.0
         },
         {
           "headline": "MINT ส่งซิกครึ่งปีหลังโตต่อ ธุรกิจโรงแรมหนุน-ยอดจองล่วงหน้าพุ่ง ลุยลดหนี้ต่อเนื่อง",
           "source": "Kaohoon (scrape)",
           "url": "https://www.kaohoon.com/news/852752",
-          "published_at": "2026-09-24T15:58:47.992353+07:00",
+          "published_at": "2026-09-25T16:18:21.563323+07:00",
           "sentiment": -1.0
         }
       ],
@@ -1021,23 +1020,23 @@
         "short_term": {
           "action": "HOLD",
           "confidence": 0.58,
-          "target_price": 21.83,
-          "stop_loss": 20.43,
-          "reasoning": "CCI short-term = +0.15, RSI = 36.0, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 22.03,
+          "stop_loss": 20.61,
+          "reasoning": "CCI short-term = +0.15, RSI = 40.0, อยู่ในโซน red [rule-based fallback]"
         },
         "medium_term": {
           "action": "HOLD",
           "confidence": 0.53,
-          "target_price": 21.62,
-          "stop_loss": 20.43,
-          "reasoning": "CCI medium-term = +0.06, RSI = 36.0, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 21.82,
+          "stop_loss": 20.61,
+          "reasoning": "CCI medium-term = +0.06, RSI = 40.0, อยู่ในโซน red [rule-based fallback]"
         },
         "long_term": {
           "action": "HOLD",
           "confidence": 0.6,
-          "target_price": 21.09,
-          "stop_loss": 20.43,
-          "reasoning": "CCI long-term = -0.19, RSI = 36.0, อยู่ในโซน red [rule-based fallback]"
+          "target_price": 21.28,
+          "stop_loss": 20.61,
+          "reasoning": "CCI long-term = -0.19, RSI = 40.0, อยู่ในโซน red [rule-based fallback]"
         }
       },
       "risk_flags": [
